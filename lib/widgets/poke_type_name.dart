@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_pokedex/constants/constants.dart';
-import 'package:flutter_pokedex/model/pokemon_model.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../constants/Constans.dart';
+import '../constants/ui_helper.dart';
+import '../model/pokemon_model.dart';
+import '../model/pokemon_model.dart';
 
 class PokeNameType extends StatelessWidget {
   final PokemonModel pokemon;

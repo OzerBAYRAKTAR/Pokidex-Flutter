@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_pokedex/constants/constants.dart';
-import 'package:flutter_pokedex/constants/ui_helper.dart';
-import 'package:flutter_pokedex/model/pokemon_model.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import '../constants/Constans.dart';
+import '../constants/ui_helper.dart';
+import '../model/pokemon_model.dart';
 
 class PokeInformation extends StatelessWidget {
   final PokemonModel pokemon;
@@ -28,8 +29,8 @@ class PokeInformation extends StatelessWidget {
             _buildInformationRow('Spawn Time', pokemon.spawnTime),
             _buildInformationRow('Spawn Time', pokemon.spawnTime),
             _buildInformationRow('Weakness', pokemon.weaknesses),
-            _buildInformationRow('Pre Evolution', pokemon.prevEvolution),
-            _buildInformationRow('Next Evolution', pokemon.nextEvolution),
+           //_buildInformationRow('Pre Evolution', pokemon.prevEvolution),
+           //_buildInformationRow('Next Evolution', pokemon.nextEvolution),
           ],
         ),
       ),

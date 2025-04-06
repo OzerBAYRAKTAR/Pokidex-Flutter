@@ -1,7 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pokedex/constants/ui_helper.dart';
-import 'package:flutter_pokedex/model/pokemon_model.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import '../constants/Constans.dart';
+import '../constants/ui_helper.dart';
+import '../model/pokemon_model.dart';
 
 class PokeImageAndBall extends StatelessWidget {
   final PokemonModel pokemon;
@@ -10,7 +13,7 @@ class PokeImageAndBall extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String pokeballImageUrl = 'images/pokeball.png';
+    String pokeballImageUrl = 'images/pokeball.jpg';
 
     return Stack(
       children: [

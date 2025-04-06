@@ -1,10 +1,12 @@
+import 'package:dexopoke_app/widgets/poke_img_and_ball.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pokedex/constants/constants.dart';
-import 'package:flutter_pokedex/constants/ui_helper.dart';
-import 'package:flutter_pokedex/model/pokemon_model.dart';
-import 'package:flutter_pokedex/pages/detail_page.dart';
-import 'package:flutter_pokedex/widgets/poke_img_and_ball.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../constants/Constans.dart';
+import '../constants/ui_helper.dart';
+import '../model/pokemon_model.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import '../pages/detail_page.dart';
 
 class PokeListItem extends StatelessWidget {
   final PokemonModel pokemon;

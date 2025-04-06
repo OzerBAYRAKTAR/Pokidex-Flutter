@@ -1,8 +1,9 @@
+import 'package:dexopoke_app/widgets/pokelist_item.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_pokedex/model/pokemon_model.dart';
-import 'package:flutter_pokedex/services/pokedex_api.dart';
-import 'package:flutter_pokedex/widgets/pokelist_item.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import '../model/pokemon_model.dart';
+import '../services/pokidex_api.dart';
 
 class PokemonList extends StatefulWidget {
    // ignore: prefer_const_constructors_in_immutables

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_pokedex/constants/constants.dart';
-import 'package:flutter_pokedex/constants/ui_helper.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import '../constants/Constans.dart';
+import '../constants/ui_helper.dart';
 
 class AppTitle extends StatefulWidget {
   // ignore: prefer_const_constructors_in_immutables
@@ -12,7 +13,7 @@ class AppTitle extends StatefulWidget {
 }
 
 class _AppTitleState extends State<AppTitle> {
-  String pokeballImageUrl = 'images/pokeball.png';
+  String pokeballImageUrl = 'images/pokeball.jpg';
 
   @override
   Widget build(BuildContext context) {
